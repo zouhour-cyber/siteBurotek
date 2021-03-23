@@ -1,0 +1,1445 @@
+2021-03-21T19:10:54+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1230, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/plugins.php(10): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:10:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:11:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:12:21+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1249, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:12:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:13:09+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1238, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/boutiquefourniture/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:13:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1238, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/boutiquefourniture/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:13:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:13:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:14:22+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1249, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:14:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:14:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:15:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:15:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:16:23+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1249, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:16:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:16:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:17:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:17:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:18:24+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1249, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:18:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:18:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:19:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:19:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:20:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:20:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:21:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:21:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:22:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:22:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:23:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:23:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:24:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:24:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:25:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:25:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:26:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:26:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:27:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:27:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:28:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:28:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:29:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:29:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:30:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:30:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:31:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:31:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:32:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:32:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:33:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:33:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1290, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:34:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:34:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:40:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:40:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:41:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:41:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:42:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:42:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:42:19+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1249, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:42:55+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1249, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:43:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:43:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:43:41+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1247, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/async-upload.php(20): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:44:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:44:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:44:28+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1247, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/async-upload.php(20): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:45:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:45:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:46:04+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:46:04+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1230, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/post.php(12): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:46:11+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1249, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:46:12+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:46:13+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1247, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:46:23+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:46:53+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:47:12+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:47:53+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:48:54+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:49:13+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:49:55+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:50:56+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:51:14+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:52:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:53:15+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:54:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:55:16+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:56:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:57:17+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:58:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:59:25+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:59:40+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T19:59:55+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T20:00:22+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1289, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2021-03-21T20:00:23+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1196, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(61): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-content/themes/hestia/inc/compatibility/wp-forms/class-hestia-wp-forms.php(95): Hestia_Wp_Forms->create_wp_form()
+#3 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(292): Hestia_Wp_Forms->wpforms_default_menu('')
+#4 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-settings.php(538): do_action('after_setup_the...')
+#7 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/boutiquefourniture/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/boutiquefourniture/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
